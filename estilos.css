@@ -1,0 +1,233 @@
+body {
+    background-color: #001d44;
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 30px; 
+    padding: 40px;
+}
+
+.contenedor-logo { 
+    display: flex;
+    justify-content: left; 
+    width: 460px;             
+    margin-bottom: 20px;     
+}
+
+.logo {
+    width: 470px;       
+    height: auto;       
+}
+
+.contenedor-aguachile {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.aguachile {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-pulpo {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.pulpo {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-capeado {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.capeado {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-perrona {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.perrona {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-enchilado {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.enchilado {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-campechana {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.enchilado {
+    width: 400px;
+    height: auto;
+}
+
+.contenedor-pes {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.pes {
+    width: 400px;
+    height: auto;
+}
+
+
+.contenedor-coctel {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.coctel {
+    width: 400px;
+    height: auto;
+}
+
+
+.tarjeta-menu {
+    width: 450px;
+    background-color: #05101e;
+    padding: 25px;
+    border: 2px solid #00befa;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+h1 {
+    font-family: 'Impact', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.platillo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 12px; 
+}
+
+.sub-platillo {
+    padding-left: 15px;
+}
+
+.platillo-con-extra, 
+.platillo-con-desc,
+.agrupador-platillo {
+    margin-bottom: 15px;
+}
+
+.platillo-con-extra .platillo,
+.platillo-con-desc .platillo {
+    margin-bottom: 2px;
+}
+
+.detalle {
+    color: #ff7a00;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.puntos {
+    color: #102a45;
+    flex-grow: 1;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 10px;
+}
+
+.precio {
+    font-weight: bold;
+}
+
+.extra {
+    color: #00befa;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.descripcion {
+    color: #a0aec0;
+    font-size: 14px;
+    font-style: italic;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}  
+
+
+.seccion-redes {
+    width: 450px;
+    background-color: #05101e;
+    padding: 25px;
+    border: 2px solid #00befa;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+}
+
+.seccion-redes h2 {
+    font-family: 'Impact', sans-serif;
+    color: white;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.enlaces-redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.enlace-red {
+    color: #00befa; 
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.2s ease; 
+}
+.enlace-red:hover {
+    color: #ff7a00; /* Cambia al color naranja de tus detalles */
+}
