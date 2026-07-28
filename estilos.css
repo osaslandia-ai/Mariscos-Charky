@@ -132,14 +132,14 @@ body {
 
 .contendor-chicharronpes {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 400px;
     margin-bottom: 20px; 
 }
 
 .chicharronpes {
     width: 400px;
-    height: auto;
+    height: fit-content;
 }
 
 .contendor-pulpocamaron {
@@ -151,7 +151,7 @@ body {
 
 .pulpocamaron {
     width: 400px;
-    height: auto;
+    height: fit-content;
 }
 
 .tarjeta-menu {
