@@ -118,6 +118,41 @@ body {
     height: auto;
 }
 
+.contendor-ceviche {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px; 
+}
+
+.ceviche {
+    width: 400px;
+    height: auto;
+}
+
+.contendor-chicharronpes {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px; 
+}
+
+.chicharronpes {
+    width: 400px;
+    height: auto;
+}
+
+.contendor-pulpocamaron {
+    display: flex;
+    justify-content: right;
+    width: 400px;
+    margin-bottom: 20px; 
+}
+
+.pulpocamaron {
+    width: 400px;
+    height: auto;
+}
 
 .tarjeta-menu {
     width: 450px;
