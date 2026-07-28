@@ -231,8 +231,10 @@ h1 {
 
 
 .seccion-redes {
-    width: 1000;
+    width: 1000px;
     background-color: #05101e;
+    max-width: 90%;
+    margin: 30px auto;
     padding: 25px;
     border: 2px solid #00befa;
     border-radius: 10px;
